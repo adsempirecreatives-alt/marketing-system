@@ -25,4 +25,3 @@ Create a Meta developer app with Marketing API access, associate it with the bus
 - For larger volumes, add pagination, rate-limit handling, and a separate opt-in lead import flow with deduplication and privacy controls.
 - Existing app stores business records in one `app_data` JSON blob per user, not normalized tables; do not auto-merge Meta leads into it without a migration design.
 - The public Supabase anon key in `index.html` is not a secret, but never publish a service-role key. Review RLS policies.
-
